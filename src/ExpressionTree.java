@@ -78,6 +78,8 @@ public class ExpressionTree
         System.out.println("min: " + BST.findMin());
         System.out.println("max: " + BST.findMax());
 
+
+
     }
 
 

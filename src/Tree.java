@@ -11,7 +11,45 @@ public class Tree
 {
     ExpressionNode root;
 
-    // public method
+
+
+    public static void insert(ExpressionNode node, int nodeVal)
+    {
+
+        if(node == null)
+        {
+            throw new IllegalArgumentException("null node");
+        }
+
+        if(nodeVal < asInt(node.symbol))
+        {
+
+            if(node.left != null)
+            {
+                insert(node.left, nodeVal);
+            }
+            else
+            {
+                node.left = new ExpressionNode(String.valueOf(nodeVal));
+            }
+
+
+        }
+        else
+        {
+            if(node.right != null)
+            {
+                insert(node.right, nodeVal);
+            }
+            else
+            {
+                node.right = new ExpressionNode(String.valueOf(nodeVal));
+            }
+
+        }
+    }
+
+        // public method
     public boolean exists(int data) {
         return exists_recurse(root, data);
     }
