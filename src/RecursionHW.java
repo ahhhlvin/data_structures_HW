@@ -11,7 +11,7 @@ public class RecursionHW
         char letter = string.charAt(0);
         int index = string.indexOf(letter, 1);
 
-        
+
         if (string.equals("")) {
             return true;
         }
