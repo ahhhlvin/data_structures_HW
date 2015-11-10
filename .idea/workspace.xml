@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099f34bc-2222-428b-9d99-138276fa4564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DirectoryTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecursionHW.java" afterPath="$PROJECT_DIR$/src/RecursionHW.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AC_Homeworks.iml" afterPath="$PROJECT_DIR$/AC_Homeworks.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="data_structures_HW.iws" />
@@ -31,10 +31,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-              <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,17 +40,7 @@
         <entry file="file://$PROJECT_DIR$/AC_Homeworks.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -65,8 +52,11 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
-                <element signature="e#423#439#0" expanded="true" />
-                <element signature="e#4945#4961#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4065#4066#0" expanded="false" />
+                <element signature="e#4107#4108#0" expanded="false" />
+                <element signature="e#6939#6940#0" expanded="false" />
+                <element signature="e#6985#6986#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,15 +72,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectoryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DirectoryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DirectoryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3258427">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Spider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#307#315#0" expanded="true" />
+                <element signature="e#373#381#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderLeg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SpiderLeg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#648#656#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SpiderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.505618">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +127,14 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#2501#2517#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#977#978#0" expanded="false" />
+                <element signature="e#1026#1027#0" expanded="false" />
+                <element signature="e#1635#1636#0" expanded="false" />
+                <element signature="e#1684#1685#0" expanded="false" />
+                <element signature="e#4442#4443#0" expanded="false" />
+                <element signature="e#4484#4485#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,7 +145,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-              <folding />
+              <folding>
+                <element signature="e#138#139#0" expanded="false" />
+                <element signature="e#169#170#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/ExpressionTree.java" />
         <option value="$PROJECT_DIR$/src/RecursionHW.java" />
         <option value="$PROJECT_DIR$/src/DirectoryTree.java" />
+        <option value="$PROJECT_DIR$/src/Spider.java" />
+        <option value="$PROJECT_DIR$/src/SpiderLeg.java" />
+        <option value="$PROJECT_DIR$/src/SpiderTest.java" />
       </list>
     </option>
   </component>
@@ -162,7 +201,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -185,6 +224,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="data_structures_HW" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -231,7 +274,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alvin2/Desktop/accesscode/unit-4/data_structures_HW/src/ExpressionTree.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jsoup-1.8.3.jar!/" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -240,7 +283,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DirectoryTree">
+  <component name="RunManager" selected="Application.SpiderTest">
     <configuration default="false" name="RecursionHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="RecursionHW" />
@@ -259,6 +302,21 @@
     <configuration default="false" name="DirectoryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DirectoryTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AC_Homeworks" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpiderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -418,14 +476,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.RecursionHW" />
       <item index="1" class="java.lang.String" itemvalue="Application.DirectoryTree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SpiderTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.DirectoryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RecursionHW" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.SpiderTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DirectoryTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RecursionHW" />
       </list>
     </recent_temporary>
   </component>
@@ -495,10 +555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -523,8 +580,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <element signature="e#423#439#0" expanded="true" />
-            <element signature="e#4945#4961#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4065#4066#0" expanded="false" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#6939#6940#0" expanded="false" />
+            <element signature="e#6985#6986#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,7 +602,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#2501#2517#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1026#1027#0" expanded="false" />
+            <element signature="e#1635#1636#0" expanded="false" />
+            <element signature="e#1684#1685#0" expanded="false" />
+            <element signature="e#4442#4443#0" expanded="false" />
+            <element signature="e#4484#4485#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -551,7 +618,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#169#170#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +637,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#169#170#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,7 +649,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#2501#2517#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1026#1027#0" expanded="false" />
+            <element signature="e#1635#1636#0" expanded="false" />
+            <element signature="e#1684#1685#0" expanded="false" />
+            <element signature="e#4442#4443#0" expanded="false" />
+            <element signature="e#4484#4485#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/AC_Homeworks.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -593,10 +673,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,8 +682,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <element signature="e#423#439#0" expanded="true" />
-            <element signature="e#4945#4961#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4065#4066#0" expanded="false" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#6939#6940#0" expanded="false" />
+            <element signature="e#6985#6986#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,12 +701,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DirectoryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3258427">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#315#0" expanded="true" />
+            <element signature="e#373#381#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpiderLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#648#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpiderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.505618">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -682,12 +792,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>data_structures_HW</last-edited>
+          <last-edited>AC_Homeworks</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
