@@ -7,14 +7,13 @@ public class RecursionHW
 {
 
     public static boolean isEvenWord(String string) {
-
-        char letter = string.charAt(0);
-        int index = string.indexOf(letter, 1);
-
-
+        // does calling charAt(0) make sense if string is empty?
         if (string.equals("")) {
             return true;
         }
+        
+        char letter = string.charAt(0);
+        int index = string.indexOf(letter, 1);
 
         // '<0' could -1 which is 'false'
         if (index < 0) {
@@ -48,5 +47,7 @@ public class RecursionHW
         System.out.println(isEvenWord("appeases"));
         System.out.println(fibonacci(4));
     }
+    
+    // I want to see more test cases
 
 }
