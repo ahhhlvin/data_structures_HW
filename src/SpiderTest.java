@@ -14,6 +14,6 @@ public class SpiderTest
     public static void main(String[] args)
     {
         Spider spider = new Spider();
-        spider.search("http://jsoup.org/download", "jar");
+        spider.search("http://jsoup.org/download", "bye");
     }
 }

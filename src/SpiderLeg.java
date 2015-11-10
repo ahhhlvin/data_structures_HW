@@ -33,6 +33,7 @@ public class SpiderLeg
      */
     public boolean crawl(String url)
     {
+
         try
         {
             Connection connection = Jsoup.connect(url).userAgent(USER_AGENT);
@@ -45,7 +46,7 @@ public class SpiderLeg
             }
             if(!connection.response().contentType().contains("text/html"))
             {
-                System.out.println("**Failure** Retrieved something other than HTML");
+                System.out.println("**FAILURE** Retrieved something other than HTML");
                 return false;
             }
             Elements linksOnPage = htmlDocument.select("a[href]");
@@ -75,14 +76,21 @@ public class SpiderLeg
     public boolean searchForWord(String searchWord)
     {
         // Defensive coding. This method should only be used after a successful crawl.
-        if(this.htmlDocument == null)
+
+
+        if (getLinks().size() != 0)
         {
-            System.out.println("ERROR! Call crawl() before performing analysis on the document");
+            System.out.println("Searching for the word ' " + searchWord + " ' ...");
+            String bodyText = this.htmlDocument.body().text();
+            return bodyText.toLowerCase().contains(searchWord.toLowerCase());
+        } else if(this.htmlDocument == null)
+        {
+            System.out.println("ERROR! The HTML doc is NULL ---- Call crawl() before performing analysis on the document");
+            return false;
+        }else {
+            System.out.println("ERROR! There were 0 links found");
             return false;
         }
-        System.out.println("Searching for the word " + searchWord + "...");
-        String bodyText = this.htmlDocument.body().text();
-        return bodyText.toLowerCase().contains(searchWord.toLowerCase());
     }
 
 
