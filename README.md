@@ -1,6 +1,6 @@
 # AC_Homeworks
 
-InterviewCake HW# 1:
+InterviewCake HW# 1 possible solution:
 
    int returnMaxDif()
     {
