@@ -2,7 +2,9 @@
 
 InterviewCake HW# 1 possible solution:
 
-   int returnMaxDif()
+
+
+   private int returnMaxDif()
     {
       int[] stocks = {10, 7, 5, 8, 11, 9};
        int maxDif = 0;
@@ -21,3 +23,21 @@ InterviewCake HW# 1 possible solution:
 
 
 InterviewCake HW# 2:
+
+
+private int[] getProducts() {
+    int[] nums = {1, 7, 3, 4};
+    int[] products= {};
+
+   for (int i = 0; i < nums.length; i++) {
+       for (int j = 0; j < nums.length; j++) {
+           if (i = j) {
+             
+           } else {
+            products[i] = (nums[i] * nums[j]);    
+           }
+           
+       }
+   }
+
+}
