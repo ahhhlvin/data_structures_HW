@@ -88,7 +88,7 @@ public class AC_11_10
 
     // STATIC INITIALIZER:  (pre-stuffing a cache) --- setup that occurs before class is even initialized
     static {
-        = new HashMap<Integer, BigDecimal>();
+        cache = new HashMap<Integer, BigDecimal>();
         cache.put(0, BigDecimal.ONE);
         cache.put(1, BigDecimal.ONE);
     }
