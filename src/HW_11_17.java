@@ -8,9 +8,10 @@ import java.util.ArrayList;
 public class HW_11_17
 {
 
-    public static int getMaxDif()
+
+
+    public static int get_max_profit(int [] stocks)
     {
-        int[] stocks = {10, 7, 5, 8, 11, 9};
         int maxDif = 0;
 
         for(int i = 0; i < stocks.length - 1; i++)
@@ -28,24 +29,23 @@ public class HW_11_17
 
     }
 
-    public static ArrayList<Integer> getProducts()
-    {
+    public static ArrayList<Integer> get_products_of_all_ints_except_at_index() {
         int[] nums = {1, 7, 3, 4};
         ArrayList<Integer> products = new ArrayList<>(4);
 
-        for(int i = 0; i < nums.length-1; i++)
-        {
-            for(int j = i + 1; j < nums.length; j++)
+
+        for (int index = 0; index < nums.length; index++) {
+            int tempNum = 1;
+
+            for (int nestedIndex = 0; nestedIndex < nums.length; nestedIndex++)
             {
-                if (nums[i] == nums[j]) {
-
+                if(nestedIndex != index)
+                {
+                    tempNum *= nums[nestedIndex];
                 }
-                    if (! products.contains(nums[i] * nums[j]))
-                    {
-                        products.add(nums[i] * nums[j]);
-                    }
-
             }
+
+            products.add(tempNum);
         }
 
         return products;
@@ -53,8 +53,10 @@ public class HW_11_17
 
     public static void main(String[] args2)
     {
-        System.out.println(getMaxDif());
-        System.out.println(getProducts());
+        int[] stock_prices_yesterday = {10, 7, 5, 8, 11, 9};
+
+        System.out.println(get_max_profit(stock_prices_yesterday));
+        System.out.println(get_products_of_all_ints_except_at_index());
 
     }
 

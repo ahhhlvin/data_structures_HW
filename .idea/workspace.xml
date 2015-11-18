@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099f34bc-2222-428b-9d99-138276fa4564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AC_Classwork/AC_11_10.java" afterPath="$PROJECT_DIR$/src/AC_Classwork/AC_11_10.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HW_11_17.java" afterPath="$PROJECT_DIR$/src/HW_11_17.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="data_structures_HW.iws" />
@@ -93,8 +93,8 @@
       <file leaf-file-name="HW_11_17.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HW_11_17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.123595506">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.63595504">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -606,7 +606,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -928,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HW_11_17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123595506">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.63595504">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding />
         </state>
       </provider>
