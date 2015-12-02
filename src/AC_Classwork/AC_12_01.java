@@ -1,4 +1,6 @@
 package AC_Classwork;
+import java.util.Arrays;
+
 /**
  * Created by alvin2 on 12/1/15.
  * Alvin Kuang
@@ -8,19 +10,19 @@ public class AC_12_01
 {
 
     public static int missingNumber(int[] nums) {
-        int missingNum = 0;
-        // assuming that the int[] nums contains 99 numbers and 100 spaces
-        for(int i = 0; i <= nums.length; i++)
-        {
+        boolean[] boolArray = new boolean[100];
 
-            if (i == nums[i]) {
+        for (int i : nums ) {
+            boolArray[i-1] = true;
+        }
 
-            } else {
-                missingNum = i;
+        for (int j = 0; j <= boolArray.length; j++) {
+            if (!boolArray[j]) {
+                return j+1;
             }
         }
 
-        return missingNum;
+        return -1;
     }
 }
 
