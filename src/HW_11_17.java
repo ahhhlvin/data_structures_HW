@@ -51,6 +51,8 @@ public class HW_11_17
         return products;
     }
 
+
+
     public static void main(String[] args2)
     {
         int[] stock_prices_yesterday = {10, 7, 5, 8, 11, 9};
@@ -58,7 +60,10 @@ public class HW_11_17
         System.out.println(get_max_profit(stock_prices_yesterday));
         System.out.println(get_products_of_all_ints_except_at_index());
 
+
     }
+
+
 
 
 }
